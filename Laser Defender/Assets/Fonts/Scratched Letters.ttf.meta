@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: affc0126d61c4e94e926fe4b7b77b837
+timeCreated: 1512917272
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Scratched Letters
+  fontNames:
+  - Scratched Letters
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
