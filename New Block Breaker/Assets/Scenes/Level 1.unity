@@ -898,6 +898,48 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa1bb6f02d48037419172f707020e3fb, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1001 &569494069
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989292221304032, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9e8a623a60ce4747b146484dac7c0fd, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!4 &570041839 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4508689456665364, guid: fa1bb6f02d48037419172f707020e3fb,
