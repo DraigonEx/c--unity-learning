@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadStartScene()
     {
-        GameStatus.Instance.Reset();
+        GameSession.Instance.ResetGame();
         SceneManager.LoadScene(0);
     }
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class GameStatus : MonoBehaviour {
+public class GameSession : MonoBehaviour {
 
     //config params
     [Range(0.1f, 10f)] [SerializeField] float gameSpeed = 1f;
@@ -14,9 +14,9 @@ public class GameStatus : MonoBehaviour {
     //state variables
     [SerializeField] int currentScore;
 
-    private static GameStatus _instance = null;
+    private static GameSession _instance = null;
 
-    public static GameStatus Instance
+    public static GameSession Instance
     {
         get { return _instance; }
     }
@@ -50,7 +50,7 @@ public class GameStatus : MonoBehaviour {
         scoreText.text = currentScore.ToString();
     }
 
-    internal void Reset()
+    internal void ResetGame()
     {
         _instance = null;
         Destroy(gameObject);
