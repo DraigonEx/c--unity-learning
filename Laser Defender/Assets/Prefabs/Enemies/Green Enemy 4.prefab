@@ -21,7 +21,9 @@ GameObject:
   - component: {fileID: 4630870037559538}
   - component: {fileID: 212810742386125210}
   - component: {fileID: 114424163749919536}
-  m_Layer: 0
+  - component: {fileID: 114234890867507894}
+  - component: {fileID: 58522141049607754}
+  m_Layer: 9
   m_Name: Green Enemy 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,6 +43,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &58522141049607754
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705636966621656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.42
+--- !u!114 &114234890867507894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705636966621656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111c2503af919f64c82b509a82b09d2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 3
+  shotPrefab: {fileID: 1031130428147880, guid: fce3d19fccc743b46b550ef9fc742b6a, type: 2}
+  shotSound: {fileID: 8300000, guid: c16389d460a7e324bacaa6a7842b464b, type: 3}
+  shotVolume: 0.33
+  shotSpeed: 5
+  minTimeBetweenBombs: 0.2
+  maxTimeBetweenBombs: 3
+  bombPrefab: {fileID: 0}
+  bombSound: {fileID: 8300000, guid: 68742c4bab8a7cf4fa053c0aa3c7ac9d, type: 3}
+  bombVolume: 0.33
+  explosionParticles: {fileID: 1622028390332676, guid: bfbf8971ff0441449b712e5ee9ab3ece,
+    type: 2}
+  explosionDuration: 1
+  explosionSound: {fileID: 8300000, guid: a3d4786b25e5f6e4aa9cbd2311efe198, type: 3}
+  explosionVolume: 1
 --- !u!114 &114424163749919536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52,14 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b61403170f19841b64498c61608d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 4430090412764180, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  - {fileID: 4464738477271716, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  - {fileID: 4843702022336474, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  - {fileID: 4463837951165240, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  - {fileID: 4207025064508472, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  - {fileID: 4117809627020706, guid: a89278f61d904574a986ca28e6ee2e11, type: 2}
-  moveSpeed: 2
 --- !u!212 &212810742386125210
 SpriteRenderer:
   m_ObjectHideFlags: 1
